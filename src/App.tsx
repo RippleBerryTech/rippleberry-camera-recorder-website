@@ -3,7 +3,7 @@ import RBMediaRecorder, {
   checkPermission,
   getConnectedDevices,
   requestPermission,
-} from "rippleberry-camera-recorder/dist"
+} from "rippleberry-camera-recorder"
 import "./App.css"
 
 const App: React.FC = () => {
