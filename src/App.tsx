@@ -19,9 +19,8 @@ const App: React.FC = () => {
 
   const options = useMemo(() => {
     return {
-      video: { deviceId: selectedVideoDevice, width: 1280, height: 720 },
+      video: { deviceId: selectedVideoDevice },
       audio: { deviceId: selectedAudioDevice },
-      mimeType: "video/webm",
       audioBitsPerSecond: 128000,
       videoBitsPerSecond: 2500000,
     }
